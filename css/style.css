@@ -6,6 +6,19 @@
   font-size: 1.2em;
   font-weight: 500;
 }
+.pandabtn {
+  background-image: linear-gradient(20deg, #bc4e9c, #f80759);
+  padding: 12px 35px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1em;
+}
+.price-text{
+    color: #f80759;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
 .product img {
   width: 100px;
 }
@@ -27,8 +40,8 @@
 .shoespanda p {
   font-size: 1.1em;
 }
-.subcribepanda{
-    padding: 80px;
+.subcribepanda {
+  padding: 80px;
 }
 .email-btn {
   display: flex;
@@ -36,7 +49,7 @@
 .email-btn input {
   border: none;
   border-radius: 10px 0px 0px 10px;
-  width: 350px;
+  width: 320px;
   height: 50px;
 }
 .email-btn button {
