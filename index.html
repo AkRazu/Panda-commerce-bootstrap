@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/08824abbf9.js" crossorigin="anonymous"></script>
     <title>Panda Boorstarp</title>
     <!-- bootsrap Css -->
     <link
@@ -18,7 +22,7 @@
     <header>
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg bg-light py-4">
-        <div class="container">
+        <div class="container ">
           <a class="navbar-brand" href="#">
             <img class="img-fluid" src="images/logo.png" alt="" />
           </a>
@@ -34,18 +38,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 headpanda">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#Backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subcribe</a>
+                <a class="nav-link" href="#Subcribe">Subcribe</a>
               </li>
             </ul>
           </div>
@@ -149,11 +153,11 @@
     <!-- product categories  -->
     <main>
       <section class="container my-5">
-        <div class="row g-4">
+        <div class="row g-4 product">
           <h1 class="">Categories</h1>
           <div class="col-lg-4 col-md-6">
             <div
-              class="p-3 rounded-3 bg-warning d-flex justify-content-between align-items-center"
+              class="p-3 product rounded-3 bg-warning d-flex justify-content-between align-items-center"
             >
               <h1 class="text-white">Watch</h1>
               <img class="img-fluid" src="images/categories/watch.png" alt="" />
@@ -182,140 +186,166 @@
       </section>
       <!-- shoes -->
 
-      <section class="container my-5">
-        <h1 class="">Shoes</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
+      <section class="container my-5" id="shoes">
+        <h1 class="my-4">Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 shoespanda ">
+          <div class="col ">
+            <div class="card h-100 border-0 shadow ">
               <img
                 src="images/shoes/shoe-1.png "
-                class="card-img-top"
+                class="card-img-top " 
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional.
-                </p>
-                <h5 class="card-title">$120</h5>
+              <div class="">
+                <div class="card-body ">
+                    <h5 class="card-title h2 pb-3 text-center">Supply 350
+                    </h5>
+                    <p class="card-text text-center">
+                        Amet minim mollit non deserunt ullamco 
+                        est sit aliqua dolor do amet sint. 
+                    </p>
+                    <h5 class="card-title h3 text-center">$1289</h5>
+                  </div>
               </div>
-              <div class="m-3">
-                <button type="button" class="btn btn-danger">Buy Now</button>
+              <div class="m-3 d-flex justify-content-center">
+                <button type="button" class="  pandabtnshoe">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
+          <div class="col ">
+            <div class="card h-100 border-0 shadow ">
               <img
                 src="images/shoes/shoe-2.png "
-                class="card-img-top"
+                class="card-img-top " 
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Nike 360</h5>
-                <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-                <h5 class="card-title">$320</h5>
+              <div class="">
+                <div class="card-body ">
+                    <h5 class="card-title h2 pb-3 text-center">Nike 360
+                    </h5>
+                    <p class="card-text text-center">
+                        Amet minim mollit non deserunt ullamco 
+                        est sit aliqua dolor do amet sint. 
+                    </p>
+                    <h5 class="card-title h3 text-center">$799</h5>
+                  </div>
               </div>
-              <div class="m-3">
-                <button type="button" class="btn btn-warning">Buy Now</button>
+              <div class="m-3 d-flex justify-content-center">
+                <button type="button" class="  pandabtnshoe">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
+          <div class="col ">
+            <div class="card h-100 border-0 shadow ">
               <img
-                src="images/shoes/shoe-3.png"
-                class="card-img-top"
+                src="images/shoes/shoe-3.png "
+                class="card-img-top " 
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Red Airmax</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional.
-                </p>
-                <h5 class="card-title">$350</h5>
+              <div class="">
+                <div class="card-body ">
+                    <h5 class="card-title h2 pb-3 text-center">Red Airmax
+                    </h5>
+                    <p class="card-text text-center">
+                        Amet minim mollit non deserunt ullamco 
+                        est sit aliqua dolor do amet sint. 
+                    </p>
+                    <h5 class="card-title h3 text-center">$699</h5>
+                  </div>
               </div>
-              <div class="m-3">
-                <button type="button" class="btn btn-info">Buy Now</button>
+              <div class="m-3 d-flex justify-content-center">
+                <button type="button" class="  pandabtnshoe">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
+          
         </div>
       </section>
 
       <!-- Backpack -->
-      <section class="container my-5">
-        <h1 class="">Backpack</h1>
+      <section class="container my-5" id="Backpack">
+        <h1 class="my-4">Backpack</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
-            <div class="card h-100 border border-0 shadow">
-              <img src="images/bags/bag-1.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Red Laltu Bag</h5>
-                <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                </p>
-                <h5 class="card-title">$120</h5>
+            <div class="col ">
+                <div class="card h-100 border-0 shadow ">
+                  <img
+                    src="images/bags/bag-1.png "
+                    class="card-img-top " 
+                    alt="..."
+                  />
+                  <div class="">
+                    <div class="card-body ">
+                        <h5 class="card-title h2 pb-3 text-center">Red Laltu Bag
+                        </h5>
+                        <p class="card-text text-center">
+                            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                        </p>
+                        <h5 class="card-title h3 text-center">$799</h5>
+                      </div>
+                  </div>
+                  <div class="m-3 d-flex justify-content-center">
+                    <button type="button" class="  pandabtnshoe">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                  </div>
+                </div>
               </div>
-              <div class="m-3">
-                <button type="button" class="btn btn-info">Buy Now</button>
+              <div class="col ">
+                <div class="card h-100 border-0 shadow ">
+                  <img
+                    src="images/bags/bag-2.png "
+                    class="card-img-top " 
+                    alt="..."
+                  />
+                  <div class="">
+                    <div class="card-body ">
+                        <h5 class="card-title h2 pb-3 text-center">Blue Niltu Bag
+                        </h5>
+                        <p class="card-text text-center">
+                            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                        </p>
+                        <h5 class="card-title h3 text-center">$799</h5>
+                      </div>
+                  </div>
+                  <div class="m-3 d-flex justify-content-center">
+                    <button type="button" class="  pandabtnshoe">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow">
-              <img src="images/bags/bag-2.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Blue Niltu Bag</h5>
-                <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                </p>
-                <h5 class="card-title">$320</h5>
+              <div class="col ">
+                <div class="card h-100 border-0 shadow ">
+                  <img
+                    src="images/bags/bag-3.png "
+                    class="card-img-top " 
+                    alt="..."
+                  />
+                  <div class="">
+                    <div class="card-body ">
+                        <h5 class="card-title h2 pb-3 text-center">Black Kaltu Bag
+                        </h5>
+                        <p class="card-text text-center">
+                            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                        </p>
+                        <h5 class="card-title h3 text-center">$599</h5>
+                      </div>
+                  </div>
+                  <div class="m-3 d-flex justify-content-center">
+                    <button type="button" class="  pandabtnshoe">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                  </div>
+                </div>
               </div>
-              <div class="m-3">
-                <button type="button" class="btn btn-warning">Buy Now</button>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-0 shadow" >
-              <img src="images/bags/bag-3.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Black Kaltu Bag</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-                <h5 class="card-title">$169</h5>
-              </div>
-              <div class="m-3">
-                <button type="button" class="btn btn-danger">Buy Now</button>
-              </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
-      <!-- Emain - section -->
-      <section class="container my-5 py-5 rounded" style="background-color: #FCEAE8;">
+      <!-- Subcribe - section -->
+      <section class="container my-5 subcribepanda rounded" style="background-color: #FCEAE8;" id="Subcribe">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <h1 class="h3">LET'S STAY IN TOUCH                </h1>
-                <p class="fs-5">Get updates on sales specials and more</p>
-                <input type="email"  id="exampleInputEmail1" class="form-control" placeholder="Enter your email" aria-describedby="emailHelp">
-                <br>
-                <button type="button" class="btn btn-danger">Submit</button>
+                <h1 class="h3 text-center">LET'S STAY IN TOUCH                </h1>
+                <p class="fs-5 text-center">Get updates on sales specials and more</p>
+                <div class="email-btn">
+                    <input type="email"  id="exampleInputEmail1" class="form-control" placeholder="Enter your email" aria-describedby="emailHelp">
+                    <button type="button" class="btn btn-danger">Submit</button>
+                </div>
             </div>
         </div>
       </section>
